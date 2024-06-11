@@ -40,3 +40,6 @@ if answer.lower() == "power supply unit":
     score += 1
 else:
     print("Incorrect!")
+
+percent = score/4 * 100
+print(f"Game over! Out of the 4 questions, you answered {score} correctly ({percent}%)")
